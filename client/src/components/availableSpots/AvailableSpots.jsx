@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./availableSpots.css";
+import "./AvailableSpots.css";
 
 const AvailableSpots = () => {
     const [vehicleType, setVehicleType] = useState("car");
