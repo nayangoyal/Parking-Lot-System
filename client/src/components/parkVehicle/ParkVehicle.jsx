@@ -8,7 +8,7 @@ const ParkVehicle = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:3000/parking/park", {
+    const response = await fetch("https://parking-lot-system.onrender.com/parking/park", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ licensePlate, type }),

@@ -8,7 +8,7 @@ const AvailableSpots = () => {
 
     const fetchAvailableSpots = async () => {
         try {
-            const response = await fetch(`http://localhost:3000/parking/available-spots?type=${vehicleType}`);
+            const response = await fetch(`https://parking-lot-system.onrender.com/parking/available-spots?type=${vehicleType}`);
             const data = await response.json();
 
             if (data.availableSpots && data.availableSpots.length > 0) {

@@ -15,7 +15,7 @@ const ParkingOccupancy = () => {
     }
 
     setError(null);
-    let url = `http://localhost:3000/parking/floor/${floorNumber}/isFull`;
+    let url = `https://parking-lot-system.onrender.com/parking/floor/${floorNumber}/isFull`;
     if (spotNumber) {
       url += `?spotNumber=${spotNumber}`;
     }

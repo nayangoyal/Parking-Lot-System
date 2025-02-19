@@ -17,7 +17,7 @@ const CreateParkingLot = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:3000/parking/create", {
+      const response = await axios.post("https://parking-lot-system.onrender.com/parking/create", {
         numFloors,
         spotsPerFloor,
       });
