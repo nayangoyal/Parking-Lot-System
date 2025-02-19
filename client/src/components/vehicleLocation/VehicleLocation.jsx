@@ -9,7 +9,7 @@ const VehicleLocation = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://parking-lot-system.onrender.com/parking/vehicleLocation", {
+    const response = await fetch("https://parking-lot-system-p91t.vercel.app/parking/vehicleLocation", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ licensePlate, type }),

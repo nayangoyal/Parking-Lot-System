@@ -17,7 +17,7 @@ const CreateParkingLot = () => {
     }
 
     try {
-      const response = await axios.post("https://parking-lot-system.onrender.com/parking/create", {
+      const response = await axios.post("https://parking-lot-system-p91t.vercel.app/parking/create", {
         numFloors,
         spotsPerFloor,
       });

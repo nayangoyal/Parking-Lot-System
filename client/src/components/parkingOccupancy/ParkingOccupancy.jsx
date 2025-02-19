@@ -15,7 +15,7 @@ const ParkingOccupancy = () => {
     }
 
     setError(null);
-    let url = `https://parking-lot-system.onrender.com/parking/floor/${floorNumber}/isFull`;
+    let url = `https://parking-lot-system-p91t.vercel.app/parking/floor/${floorNumber}/isFull`;
     if (spotNumber) {
       url += `?spotNumber=${spotNumber}`;
     }
