@@ -7,7 +7,7 @@ const { PORT } = process.env;
 const app = express();
 const whitelist = [
   "http://localhost:5173",
-  "https://parking-system.vercel.app/",
+  "https://parking-system.vercel.app",
   "https://localhost", //This origin for mobile
 ]; // add your origins here
 const corsOptions = {
