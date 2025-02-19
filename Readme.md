@@ -6,6 +6,8 @@ The **Parking Lot Management System** is a full-stack web application built usin
 ## 🌐 Live Demo
 🔗 [Parking System](https://parking-system.vercel.app)
 
+> ⚠️ **Note:** After clicking on any button, please wait for the result for up to **1 minute** on our website.
+
 ## 📌 Features
 ### ✅ **Parking Lot Creation**
 - Users can create a parking lot by specifying:
