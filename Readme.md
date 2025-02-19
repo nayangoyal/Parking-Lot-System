@@ -31,7 +31,7 @@ The **Parking Lot Management System** is a full-stack web application built usin
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Version Control:** Git, GitHub
-- **Hosting:** Vercel (Frontend), Render (Backend)
+- **Hosting:** Vercel (Frontend), Vercel (Backend)
 
 ## 🏗️ Project Architecture
 - **Object-Oriented Programming (OOP)** principles are implemented in the backend.
