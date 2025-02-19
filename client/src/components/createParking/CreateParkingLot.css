@@ -1,0 +1,91 @@
+/* CreateParkingLot.css */
+
+/* Full-screen background */
+.full-screen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form container with professional card design */
+  .form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  .form-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Heading style */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+    font-weight: 600;
+  }
+  
+  .input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .input[type="number"]:focus {
+    border-color: #7f8ff4;
+    outline: none;
+    box-shadow: 0 0 8px rgba(127, 143, 244, 0.3);
+  }
+  
+  /* Submit button with hover effect */
+  .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #7f8ff4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .btn-submit:hover {
+    background-color: #6571cc;
+  }
+  
+  /* Message styling */
+  .message {
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff6b6b;
+  }
+  
